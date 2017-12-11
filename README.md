@@ -40,3 +40,14 @@ HTML och CSS är validerad via W3C HTML Validator/W3C CSS Validator och ska inte
             alt="Valid CSS!" />
     </a>
 </p>
+
+<ul>
+  <li><h2>FEEDBACK</h2>
+
+<p>Fantastiskt bra jobbat! Bra responsivitet med navigationen, bra användning av flexbox för att låta innehållet placeras över varandra. Inga onödiga px-värden, och fint designat! 
+
+Här är några punkter på förbättringar som jag kunde hitta efter att ha använt din sida några minuter:</p>
+ </li>
+  <li> a-taggarna ovanför dina div (t.ex. rad 36, 60 etc.) är överflödiga!  Jag misstänker att du tänkt använda de för navigation? Då kan du istället bara lägga ett id på den div eller section du vill länka till, istället.</li>
+  <li>En hel del tom yta mellan din <form> och innehållet bredvid(ikonen, adress etc). </li>
+<li> I din form har du lagt type=“number” på telefonnummer. Det gör att det kommer upp en liten scroll när man ska fylla i det fältet. Det är nog bättre använda en annan type.</li>
